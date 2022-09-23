@@ -402,7 +402,14 @@ section {
         margin-left: -20px;
     }
 }
-
+@media screen and (max-width:430px) {
+    .site-main {
+        margin-left: 0px;
+    }
+    .main-flex {
+        margin-left: 100px;
+    }
+}
 @media screen and (max-width:410px) {
     .flex-1 {
         display: block;
@@ -635,7 +642,7 @@ section {
         border-radius: 8px;
         margin-top: 20px;
         display: block;
-        margin-left: -175px;
+        margin-left: -155px;
     }
 }
 @media screen and (max-width:390px) {
